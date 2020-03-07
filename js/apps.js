@@ -1,2 +1,11 @@
-!function(e){"function"==typeof define&&define.amd?define("app",e):e()}((function(){"use strict";console.log("Hello handsome")}));
+(function (factory) {
+	typeof define === 'function' && define.amd ? define('app', factory) :
+	factory();
+}((function () { 'use strict';
+
+	// import persons from './plain';
+	console.log('Hello handsome'); // console.log(persons.fname);
+
+})));
+
 //# sourceMappingURL=apps.js.map
