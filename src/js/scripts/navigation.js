@@ -1,17 +1,17 @@
 const topNavAbout = [
   {
     name: 'home',
-    url: '../index.html',
+    url: '/experimant/index.html',
     designation: 'list-item'
   },
   {
     name: 'products',
-    url: '../products.html',
+    url: 'products.html',
     designation: 'list-item parent'
   },
   {
     name: 'events',
-    url: '../events.html',
+    url: 'events.html',
     designation: 'list-item'
   },
   {
@@ -21,17 +21,17 @@ const topNavAbout = [
   },
   {
     name: 'gallery',
-    url: '../gallery.html',
+    url: 'gallery.html',
     designation: 'list-item'
   },
   {
     name: 'support',
-    url: '../support.html',
+    url: 'support.html',
     designation: 'list-item'
   },
   {
     name: 'contact',
-    url: '../contact.html',
+    url: 'contact.html',
     designation: 'list-item'
   }
 ];
@@ -80,7 +80,7 @@ export function getNav() {
   header.appendChild(ul);
   if (location.pathname === '/about/about.html') {
     const linknavs = topNavAbout.map(function(link) {
-      return `<li class="${link.designation} ${link.name}"><a href="${link.url}">${link.name}</a></li>`;
+      return `<li class="${link.designation} ${link.name}"><a href="/experimant/${link.url}">${link.name}</a></li>`;
     });
 
     ul.innerHTML = linknavs;
