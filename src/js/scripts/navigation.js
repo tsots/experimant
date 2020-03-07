@@ -1,7 +1,7 @@
 const topNavAbout = [
   {
     name: 'home',
-    url: '/experimant/index.html',
+    url: './index.html',
     designation: 'list-item'
   },
   {
