@@ -27,12 +27,23 @@ export function aboutNav() {
   sidebarFindButtons.classList.add('btns');
 }
 
-if (location.pathname === '/about/about.html') {
+if (
+  location.pathname === 'https://tsots.github.io/experimant/about/about.html'
+) {
   aboutNav();
-} else if (location.pathname === '/about/company-profile.html') {
+} else if (
+  location.pathname ===
+  'https://tsots.github.io/experimant/about/company-profile.html'
+) {
   aboutNav();
-} else if (location.pathname === '/about/investor-relations.html') {
+} else if (
+  location.pathname ===
+  'https://tsots.github.io/experimant/about/investor-relations.html'
+) {
   aboutNav();
-} else if (location.pathname === '/about/leadership-team.html') {
+} else if (
+  location.pathname ===
+  'https://tsots.github.io/experimant/about/leadership-team.html'
+) {
   aboutNav();
 }
