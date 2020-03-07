@@ -1,7 +1,7 @@
 const topNavAbout = [
   {
     name: 'home',
-    url: './index.html',
+    url: '../index.html',
     designation: 'list-item'
   },
   {
@@ -80,7 +80,7 @@ export function getNav() {
   header.appendChild(ul);
   if (location.pathname === '/about/about.html') {
     const linknavs = topNavAbout.map(function(link) {
-      return `<li class="${link.designation} ${link.name}"><a href="/experimant/${link.url}">${link.name}</a></li>`;
+      return `<li class="${link.designation} ${link.name}"><a href="${link.url}">${link.name}</a></li>`;
     });
 
     ul.innerHTML = linknavs;
