@@ -159,7 +159,7 @@
     sidebarFindButtons.classList.add('btns');
   }
 
-  if (location.pathname === '/about/about.html' || location.pathname === 'https://tsots.github.io/experimant/about/about.html') {
+  if (location.pathname === '/about/about.html' || location.pathname === '/experimant/about/about.html') {
     aboutNav();
   } else if (location.pathname === 'https://tsots.github.io/experimant/about/company-profile.html') {
     aboutNav();
