@@ -28,6 +28,7 @@ export function aboutNav() {
 }
 
 if (
+  location.pathname === '/about/about.html' ||
   location.pathname === 'https://tsots.github.io/experimant/about/about.html'
 ) {
   aboutNav();
