@@ -69,5 +69,18 @@ if (location.pathname === '/about/about.html') {
 }
 */
 
+// var _location = document.location.toString();
+// var applicationNameIndex = _location.indexOf('/', _location.indexOf('://') + 3);
+// var applicationName = _location.substring(0, applicationNameIndex) + '/';
+// var webFolderIndex = _location.indexOf(
+//   '/',
+//   _location.indexOf(applicationName) + applicationName.length
+// );
+// var webFolderFullPath = _location.substring(0, webFolderIndex);
+
+// function getRootWebSitePath() {
+//   return webFolderFullPath;
+// }
+
 import { getNav } from '../js/scripts/navigation';
 getNav();
