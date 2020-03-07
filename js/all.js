@@ -161,11 +161,11 @@
 
   if (location.pathname === '/about/about.html' || location.pathname === '/experimant/about/about.html') {
     aboutNav();
-  } else if (location.pathname === 'https://tsots.github.io/experimant/about/company-profile.html') {
+  } else if (location.pathname === 'https://tsots.github.io/experimant/about/company-profile.html' || location.pathname === '/experimant/about/company-profile.html') {
     aboutNav();
-  } else if (location.pathname === 'https://tsots.github.io/experimant/about/investor-relations.html') {
+  } else if (location.pathname === 'https://tsots.github.io/experimant/about/investor-relations.html' || location.pathname === '/experimant/about/investor-relations.html') {
     aboutNav();
-  } else if (location.pathname === 'https://tsots.github.io/experimant/about/leadership-team.html') {
+  } else if (location.pathname === 'https://tsots.github.io/experimant/about/leadership-team.html' || location.pathname === '/experimant/about/leadership-team.html') {
     aboutNav();
   }
 
