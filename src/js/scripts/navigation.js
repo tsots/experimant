@@ -48,37 +48,37 @@ var webFolderFullPath = _location.substring(0, webFolderIndex);
 var topNav = [
   {
     name: 'home',
-    url: '/',
+    url: 'https://tsots.github.io/experimant/',
     designation: 'list-item'
   },
   {
     name: 'products',
-    url: '/products.html',
+    url: 'https://tsots.github.io/experimant/products.html',
     designation: 'list-item parent'
   },
   {
     name: 'events',
-    url: '/events.html',
+    url: 'https://tsots.github.io/experimant/events.html',
     designation: 'list-item'
   },
   {
     name: 'gallery',
-    url: '/gallery.html',
+    url: 'https://tsots.github.io/experimant/gallery.html',
     designation: 'list-item'
   },
   {
     name: 'about us',
-    url: '/about/about.html',
+    url: 'https://tsots.github.io/experimant/about/about.html',
     designation: 'list-item parent'
   },
   {
     name: 'support',
-    url: '/support.html',
+    url: 'https://tsots.github.io/experimant/support.html',
     designation: 'list-item'
   },
   {
     name: 'contact',
-    url: '/contact.html',
+    url: 'https://tsots.github.io/experimant/contact.html',
     designation: 'list-item'
   }
 ];
